@@ -1,3 +1,3 @@
-﻿import greeting from './lib.js';
+﻿import greeting from './lib.ts';
 
 document.getElementById("root").innerHTML  = greeting("ATD 13!");
