@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "prod-build": "webpack -p",
+    "dev-build": "webpack",
+    "dev-watch": "webpack --watch"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "webpack": "^3.9.1"
+  }
+}
