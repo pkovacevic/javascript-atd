@@ -206,8 +206,6 @@
   </Target>
   <Target Name="BeforeBuild">
     <Exec Command="npm run prod-build" Condition="'$(Configuration)' == 'Release'" />
-  </Target>
-  <Target Name="AfterBuild">
     <Exec Command="npm run dev-build" Condition="'$(Configuration)' == 'Debug'" />
   </Target>
 </Project>
